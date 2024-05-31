@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../img/fondoEducacion.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+.nav-link.atajo {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(207, 205, 194, 0.849);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link.atajo:hover{
+    color: rgba(255, 255, 255, 0.096);
+}
+
+main {
+    margin-bottom: 15rem;
+}

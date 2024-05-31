@@ -5,94 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="public/css/cv.css">
+
+    <link rel="stylesheet" href="public/css/home.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+
+    <script src="https://kit.fontawesome.com/dcfb381418.js" crossorigin="anonymous"></script>
+
+
 </head>
 
-<body class="style">
-    <div>
-        <h1 class="text-center">Curriculum Vitae</h1>
+<body class="d-flex text-center text-white">
+    <div class="cover-container w-100 h-100 d-flex p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h2 class="float-md-left mb-0">Abel Eduardo Aviña Zurita</h2>
+                <nav class="nav nav-masthead justify-content-center float-md-right">
+                    <a class="nav-link atajo" aria-current="page" href="views/educacion.html">Educación/Experiencia</a>
+                    <a class="nav-link atajo" aria-current="page" href="views/portafolio.html">Portafolio</a>
+                </nav>
+            </div>
+        </header>
+        <main class="px-3" id="acercaDeMi">
+            <img src="public/img/cv foto.jpeg" alt="fotoCV">
+            <h3>Acerca de mí</h3>
+            <li><b>Nombre: </b>Abel Eduardo Aviña Zurita</li>
+            <li><b>Profesión:</b> Ingeniero Civil/Desarrolador Full Stack</li>
+            <li><b>Fecha de nacimiento:</b> 11/05/1993</li>
+            <li><b>Número:</b> +52 993 3181 5889</li>
+            <li><b>Correo:</b> abel.eaz@gmail.com</li>
+            <p class="lead my-3">
+                Soy una persona bien preparada, motivada y lista, que aborda cada tarea con responsabilidad y pasión.
+                <br>
+                Mis habilidades me permiten trabajar eficazmente con equipos, fomentando un ambiente colaborativo y
+                productivo. <br>
+                Además, mi pasión por lo que hago se refleja en la dedicación y el esfuerzo que invierto en cada
+                proyecto. No solo me enfoco en alcanzar los objetivos establecidos, sino también en superar las
+                expectativas, aportando un valor añadido en cada tarea que realizo.
+            </p>
+        </main>
+        <footer class="mt-auto text-white-50"> Contacto:
+            <a href="https://www.facebook.com/abel.avina.12"><i class="fa-brands fa-facebook"></i></a>
+            <a href="linkedin.com/in/abel-aviña-324827188"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/abelavina/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/AbelAvinaZ/"><i class="fa-brands fa-github"></i></a>
+
+        </footer>
     </div>
-        <div class="row">
-            <div class="card col-sm-3">
-                <img src="public/img/cv foto.jpeg" style="width: 100%; height: auto;"
-                    class="card-img-top d-block float-start mx-auto mt-1" alt="foto de perfil">
-                <div class="card-body">
-                    <ul>
-                        <h4 class="card-title">Acerca de mí</h5>
-                            <li><b>Nombre: </b>Abel Eduardo Aviña Zurita</li>
-                            <li><b>Profesión:</b> Ingeniero Civil/Desarrolador Full Stack</li>
-                            <li><b>Fecha de nacimiento:</b> 11/05/1993</li>
-                            <li><b>Número:</b> +52 993 3181 5889</li>
-                            <li><b>Correo:</b> abel.eaz@gmail.com</li>
-                            <li class="card-text">Soy una persona bien preparada, motivada y lista, que aborda cada tarea con responsabilidad y pasión. Mis habilidades me permiten trabajar eficazmente con equipos, fomentando un ambiente colaborativo y productivo.
-                            </li>
-                        </ul>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="card experienciaLaboral">
-                    <div class="card-body">
-                        <ul class="card-text">
-                            <h4 class="card-title mb-3">Experiencia laboral</h5>
-                                <li class="mb-3">Propetario de Restaurante-bar (Administración, manejo de personal,
-                                    reclutamiento, entre
-                                    otras responsabilidades). </li>
-                                <li class="mb-3">Trabajos de construcción en Vancouver, Ca.</li>
-                                <li class="mb-3">Experiencia en licitaciones y concursos en empresa de construcción
-                                    FOCC.
-                                </li>
-                                <li class="mb-3">Gestion de personal en Grupo Rojelui.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card enlaces mt-1">
-                    <div class="card-body">
-                        <ul class="card-text">
-                            <h4 class="card-title mb-3">Enlaces</h5>
-                                <li class="mb-3"><a href="linkedin.com/in/abel-aviña-324827188">LinkedIn</a></li>
-                                <li class="mb-3"><a href="https://github.com/AbelAvinaZ/">Github</a></li>
-                                <li class="mb-3"><a href="https://www.instagram.com/abelavina/?next=%2F">Instagram</a>
-                                </li>
-                                <li class="mb-3"><a href="https://www.facebook.com/abel.avina.12">Facebook</a></li>
-                                <li class="mb-3"><a href="portafolio.html">Portafolio</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card educacion">
-                    <div class="card-body">
-                        <ol class="card-text">
-                            <h4 class="card-title mb-3">Educación</h5>
-                                <li class="mb-3">Educación Superior realizada en el Colegio Americano de Tabasco.</li>
-                                <li class="mb-3">Ingeniero Civil titulado de la UAG.</li>
-                                <li class="mb-3">Certificado del "The web developer" bootcamp 2024 por UDEMY.</li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="card habilidades mt-1">
-                    <div class="card-body">
-                        <ul class="card-text">
-                            <h4 class="card-title mb-3">Habilidades</h5>
-                                <li class="mb-3">Javascript</li>
-                                <li class="mb-3">Html</li>
-                                <li class="mb-3">Css</li>
-                                <li class="mb-3">Node</li>
-                                <li class="mb-3">React</li>
-                                <li class="mb-3">MongoDB</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
